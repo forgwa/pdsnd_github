@@ -7,7 +7,7 @@ Udacity Final Project on Version Control
 ### Description
 Projects creates a local repository of the bikeshare Udacity project on python and pushes it to a forked remote repository in Github.
 
-The bikeshare projects invloves scripting of python code which loads bikeshare data from one of three major states in the US. It invloves
+The bikeshare project invloves scripting of python code which loads bikeshare data from one of three major states in the US. It invloves
   * Requesting the front end user to enter the name of a states
   * Filters the data by month and Udacity
   * Loads some few rows and collumns of the dataset
@@ -15,8 +15,11 @@ The bikeshare projects invloves scripting of python code which loads bikeshare d
 
 
 ### Files used
-bikeshare.py data
+* bikeshare.py data
 
+* Washington bikeshare dataset
+* New York City bikeshare dataset
+* Chicago bikeshare dataset
 
 
 
