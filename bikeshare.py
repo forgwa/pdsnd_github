@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+from datetime import timedelta
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -193,7 +194,7 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    from datetime import timedelta
+
 
     total_travel_time = df['Trip Duration'].sum()
 
