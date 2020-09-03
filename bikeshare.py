@@ -232,7 +232,7 @@ def user_stats(df):
 
         # to count null values
         # Reference: https://stackoverflow.com/questions/26266362/how-to-count-the-nan-values-in-a-column-in-pandas-dataframe
-        nan_values = df["Gender"].isna().sum()
+        nan_values = df["Gender"].isnull().sum()
 
         print("\nCounts by Gender: \n{}\n \n*Note: there were '{}' NaN values for gender column".format(gender_count,nan_values))
     else:
