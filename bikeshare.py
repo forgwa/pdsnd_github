@@ -1,3 +1,4 @@
+# Importing relevant libaries for data anlysis
 import time
 import pandas as pd
 import numpy as np
@@ -58,6 +59,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 ## Validity check
+## This function ensures the user absolultely wants to continue with his/her previous entry
 def validity_check():
 
     while True:
